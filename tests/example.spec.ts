@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test';
+import * as allure from "allure-js-commons";
 
 test('has title', async ({ page }) => {
+  await allure.description('This is a test description');
   await page.goto('https://playwright.dev/');
 
   // Expect a title "to contain" a substring.
