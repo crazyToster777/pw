@@ -17,7 +17,7 @@ env:
   ALLURE_JOB_RUN_ID: ${{ github.event.inputs.ALLURE_JOB_RUN_ID }}
   ALLURE_ENDPOINT: https://independentreserve.testops.cloud/
   ALLURE_PROJECT_ID: 34
-  ALLURE_RESULTS: reports/allure-results
+  ALLURE_RESULTS: allure-results
 
 
 jobs:
